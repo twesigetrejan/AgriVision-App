@@ -1,50 +1,24 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AgriVision
+AgriVision is a mobile application designed to connect individuals and organizations involved in the agricultural industry across Africa built using the expo framework.
+The app allows users to post about the latest trends, read articles from Agwaa, and view posts from others in the community.
 
-## Get started
 
-1. Install dependencies
+Features
+User Authentication: Secure login and signup functionality.
+Post Creation: Authenticated users can create posts to share news, trends, and updates within the agricultural industry.
+Article Reading: Users can access and read articles uploaded by Agwaa, an organization dedicated to agricultural innovation and education.
+View Posts: Users can view posts made by others in the community, fostering a collaborative and informative environment.
 
-   ```bash
-   npm install
-   ```
+Installation 
+1.Cloning
+git clone https://github.com/your-username/agrivision.git
+cd agrivision
+2.Dependency Installation
+npm install
+3.Running the app
+ expo start 
+ note-if using a pc or desktop use expo run web to run the project on a web emulator
+ 
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
